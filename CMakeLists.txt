@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.13)
 project(H5hut)
 
-option(USE_FORTRAN "Build Fortran library" ON)
-option(USE_PYTHON "Build Python interface" OFF)
+option(H5HUT_USE_FORTRAN "Build Fortran library" OFF)
+option(H5HUT_USE_PYTHON "Build Python interface" OFF)
 
 #find_package(HDF5 REQUIRED)
 
