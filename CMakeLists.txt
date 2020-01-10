@@ -4,7 +4,7 @@ project(H5hut)
 option(H5HUT_USE_FORTRAN "Build Fortran library" OFF)
 option(H5HUT_USE_PYTHON "Build Python interface" OFF)
 
-#find_package(HDF5 REQUIRED)
+find_package(HDF5 REQUIRED)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
